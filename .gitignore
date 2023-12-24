@@ -1,0 +1,6 @@
+env/
+.DS_Store
+Code Testing.ipynb
+.ipynb_checkpoints/
+
+!.gitignore
