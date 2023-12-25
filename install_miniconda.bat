@@ -7,5 +7,3 @@ start /wait "" miniconda.exe
 
 REM Delete the Miniconda Installer
 del miniconda.exe
-
-echo Miniconda installation completed
