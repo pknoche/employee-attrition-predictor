@@ -89,3 +89,45 @@ The Employee Attrition Prediction System is a predictive tool aimed at forecasti
 5. Click the **“Generate Visualizations”** button to generate a correlation table, income distribution table, and confusion matrix for the final trained model. Note: If the button is clicked after training data has been uploaded but before model training is completed, only the correlation table and income distribution tables will be generated, since the confusion matrix requires a trained model to be generated.
 6. Click the **“Upload Prediction Dataset”** button. Just as in step 3, be careful not to mix up the prediction and training datasets. Navigate to the folder containing the prediction dataset that was downloaded in step 1, select it, and click open.
 7. Click the **“Generate Predictions”** button. A list of employees from the prediction dataset, identified by their employee numbers, will be listed along with a prediction of whether the employee is an attrition risk.
+
+## Screenshots
+
+<p align="center">
+    <img src="screenshots/home_page.png" alt="Home Page Screenshot">
+    <br><b>Figure 1.</b> Home Page
+</p>
+
+---
+
+<p align="center">
+    <img src="screenshots/models_evaluation.png" alt="Model Evaluation Metrics Screenshot">
+    <br><b>Figure 2.</b> Model Evaluation Metrics
+</p>
+
+---
+
+<p align="center">
+    <img src="screenshots/correlation_graph.png" alt="Correlation Graph Screenshot">
+    <br><b>Figure 3.</b> Correlation Graph
+</p>
+
+---
+
+<p align="center">
+    <img src="screenshots/income_box_whisker.png" alt="Income Box and Whisker Screenshot">
+    <br><b>Figure 4.</b> Income Box and Whisker Plot
+</p>
+
+---
+
+<p align="center">
+    <img src="screenshots/confusion_matrix.png" alt="Confusion Matrix Screenshot">
+    <br><b>Figure 5.</b> Confusion Matrix
+</p>
+
+---
+
+<p align="center">
+    <img src="screenshots/attrition_predictions.png" alt="Attrition Predictions Screenshot">
+    <br><b>Figure 6.</b> Attrition Predictions
+</p>
