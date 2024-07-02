@@ -83,12 +83,20 @@ The Employee Attrition Prediction System is a predictive tool aimed at forecasti
 ## Instructions
 
 1. Download the training and prediction datasets to your device. These datasets are located in the "data" directory.
-2. Launch the tool by clicking on the "launch binder" button, located at the top of this README. The application may take several minutes to launch in your web browser.
+2. Launch the tool by clicking on the "launch binder" button, located at the top of this README. The application may take several minutes to launch in your web browser. **Note**: The service that this tool is hosted on has been unreliable recently. If it fails to launch, see below instructions for local installation on a Windows device.
 3. Click the **"Upload Training Dataset"** button. Navigate to the training_dataset.csv file that was downloaded in step 1, select it, and click open. **Note**: Pay special attention not to mix up the training and prediction datasets. Attempting to train the model using the prediction dataset, or attempting to generate predictions with the training dataset, will result in an error due to differences in the fields contained in each file.
 4. Click the **“Train Model”** button. This will start the model training process. The evaluation metrics for each sub-model will be shown as they are calculated. Once the model is finished training, the message “Model training and evaluation completed.” will appear. This may take several minutes.
 5. Click the **“Generate Visualizations”** button to generate a correlation table, income distribution table, and confusion matrix for the final trained model. Note: If the button is clicked after training data has been uploaded but before model training is completed, only the correlation table and income distribution tables will be generated, since the confusion matrix requires a trained model to be generated.
 6. Click the **“Upload Prediction Dataset”** button. Just as in step 3, be careful not to mix up the prediction and training datasets. Navigate to the folder containing the prediction dataset that was downloaded in step 1, select it, and click open.
 7. Click the **“Generate Predictions”** button. A list of employees from the prediction dataset, identified by their employee numbers, will be listed along with a prediction of whether the employee is an attrition risk.
+
+### Local Installation
+1. Click on the green **"Code"** button at the top of this page and click **"Download ZIP"**.
+2. Unzip the downloaded file, open the **"install_scripts"** folder and double click the **"install_miniconda"** file. 
+3. Proceed through the installer steps. **Important:** Once you reach the **“Advanced Installation Options”** menu, select the **“Add Miniconda3 to my PATH environment variable”** option. If this option is not selected, the environment installation and application launch scripts will not function properly.
+4. Once Miniconda is installed, double click the **"install_environment file"**. This will automatically create, download, and install the environment required for running the application. This process will take several minutes. A message will be displayed when it is completed.
+5. Once the “Environment installation completed” message is displayed, press any key to continue, or close the window.
+6. Once the above steps are completed, click the **"launch_application"** file to launch the application. Note that the installation steps only need to be completed once, and the application can be launched again in the future by simply clicking the launch_application file.
 
 ## Screenshots
 
